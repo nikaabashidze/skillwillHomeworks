@@ -1,0 +1,131 @@
+
+
+.footer {
+    width: auto;
+    height: 300px;
+    border: 1px solid rgb(76, 74, 70);
+    box-shadow: 0 px 8px 0 rgba(149, 148, 148, 0.2), 0 6px 20px 0 rgba(79, 75, 75, 0.19);
+    background-color: rgb(163, 162, 162);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer > *{
+    border-right: 5px solid rgb(0, 0, 0);
+    width: 30%;
+    height: 95%;
+    text-align: left;
+    color: rgb(37, 36, 36);
+}
+
+
+.footer ul  {
+    align-items: center;
+
+    width: 60%;
+    list-style: none;
+    text-align: left;
+}
+
+.footer ul li {
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+
+
+
+h1 {
+    margin-left: 40px;
+}
+
+
+
+
+
+.logofut {
+    position: absolute;
+    border: none;
+    background-size: cover;
+    left: 0;
+    width: 6%;
+    height:70px;
+    cursor: pointer;
+  }
+
+
+.social {
+    display: flex;
+    gap: 28px;
+    width: 20px;
+    height: 40px;
+    align-items: center;
+   
+}
+.socialtext {
+    margin-left: 40px;
+}
+.socialMediaLogo {
+    width: 32px;
+    height: 35px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    background-size: cover;
+}
+
+
+
+
+
+@media only screen and (max-width: 890px) {
+    .footer {
+        display: grid;
+        height: auto;
+        align-items: left;
+        text-align: left;
+        height: 800px;
+    }
+
+
+    .footer > *{
+        width: 100%;
+      
+    }
+
+
+    
+    .logofut {
+       display: none;
+      }
+      h1 {
+        margin-left: 0px;
+        width: 250px;
+    }
+    .socialtext {
+        margin-left: 0px;
+    }
+
+    
+    
+
+
+}
+
+.footer ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: rgb(29, 29, 28);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.footer ul li:hover::after {
+    width: 100%;
+}
+
