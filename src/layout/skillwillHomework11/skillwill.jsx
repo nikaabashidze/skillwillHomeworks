@@ -6,7 +6,6 @@ import got from '../../assets/image/books/got.png'
 import hobbit from '../../assets/image/books/hobbit.png'
 import lotr from '../../assets/image/books/lotr.png'
 import Header from '../header/header'; 
-import Cursor from '../../components/cursor/cursor';
 import Footer from '../footer/footer'; 
 import List from '../homeworkLists/list'
 
@@ -77,7 +76,6 @@ export default function homework() {
           </div>
 
               <Footer/>
-              <Cursor/>
         </div>
 
 

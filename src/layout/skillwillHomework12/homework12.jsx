@@ -3,7 +3,6 @@ import './homeworkk12.css'
 import Works from './works'
 
 import Header from '../header/header'; 
-import Cursor from '../../components/cursor/cursor';
 import Footer from '../footer/footer'; 
 import List from '../homeworkLists/list'
 
@@ -25,7 +24,6 @@ export default function homework12() {
 
         </div>
       <Footer/>
-      <Cursor/>
     </div>
   )
 }
