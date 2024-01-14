@@ -3,19 +3,19 @@ import facebook from '../../assets/image/facebook (1).svg'
 import instagram from '../../assets/image/square-instagram (1).svg'
 import linkedin from '../../assets/image/linkedin (1).svg'
 import github from '../../assets/image/github (1).svg'
-import carlogo from '../../assets/image/carlogo.png'
+import codinglogo from '../../assets/image/codingLogo.png'
 
 
 
 function App() {
   return (
     <div className="footer">
-      <div className='logofut'><img src={carlogo} alt="" id='carlogo' /></div>
+      <div className='logofut'><img src={codinglogo} alt="" id='carlogo' /></div>
      <div> 
       <h1> Contact</h1>
         <ul>
            <div> <h3> Email</h3></div>
-            <li>nostop@gmail.com</li>
+            <li>nicholas.abashidze@gmail.com</li>
            <div>  <h3>Phone</h3> </div>
             <li>555 333 777</li>
         </ul>

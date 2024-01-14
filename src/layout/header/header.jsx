@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Outlet, Link } from "react-router-dom";
-import carlogo from '../../assets/image/carlogo.png'
+import codinglogo from '../../assets/image/codingLogo.png'
 import './header.css';
 
 function App() {
@@ -15,13 +15,12 @@ function App() {
       <button className="side-button" onClick={toggleNav}>
         ☰
       </button>
-      <div className="logo"><img src={carlogo} alt="" id='carlogo' /></div>
+      <div className="logo"><img src={codinglogo} alt="" id='carlogo' /></div>
       <nav className={`nav ${navActive ? 'active' : ''}`}>
         <ul>
         <Link to="/">HOME</Link>
-        <Link to="/tours">TOURS</Link>
-        <Link to="/services">SERVICES</Link>
-        <Link to="/about">ABOUT US</Link>
+        <Link to="/homework">HOMEWORK</Link>
+        <Link to="/about">ABOUT</Link>
         <Link to="/contact">CONTACT</Link>
         </ul>
       </nav>

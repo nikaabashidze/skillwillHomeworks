@@ -5,7 +5,10 @@ import harry from '../../assets/image/books/harry.png'
 import got from '../../assets/image/books/got.png'
 import hobbit from '../../assets/image/books/hobbit.png'
 import lotr from '../../assets/image/books/lotr.png'
-
+import Header from '../header/header'; 
+import Cursor from '../../components/cursor/cursor';
+import Footer from '../footer/footer'; 
+import List from '../homeworkLists/list'
 
 const data = [
   {
@@ -49,11 +52,12 @@ export default function homework() {
   
   return (
     <div>
-      
-        <div className='homework'>
+      <Header/>
+      <List/>
+        <div className='homework0112'>
 
           <div className='bookDiv'>
-            <h1 className='skilhome'>SKILLWILL HOMEWORK</h1>
+            <h1 className='skilhome'>SKILLWILL HOMEWORK 11</h1>
             <div className='cards'>
 
             {data.map((card, index) => (
@@ -72,7 +76,8 @@ export default function homework() {
           </div>  
           </div>
 
-
+              <Footer/>
+              <Cursor/>
         </div>
 
 

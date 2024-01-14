@@ -1,12 +1,11 @@
 import React from 'react';
-import Homework from '../skillwillHomework/skillwill'
+import './content.css'
 export default function Content() {
  
     return (
-    <div>
+    <div className='homecontent'>
 
-<Homework/>
-
+          <h1> IF YOU WANT TO SEE HOMEWORKS PLEASE CLICK "HOMEWORKS"</h1>
     </div>
   );
 }
