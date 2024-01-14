@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/skillwillHomeworks/static/css/main.3f0df93b.css",
+    "main.js": "/skillwillHomeworks/static/js/main.f8daa907.js",
+    "static/js/787.3f4a3f5e.chunk.js": "/skillwillHomeworks/static/js/787.3f4a3f5e.chunk.js",
+    "static/media/hobbit.png": "/skillwillHomeworks/static/media/hobbit.3bc122d3af08137a95e7.png",
+    "static/media/got.png": "/skillwillHomeworks/static/media/got.da0e5dc3f72ba3397c01.png",
+    "static/media/lotr.png": "/skillwillHomeworks/static/media/lotr.9eee9feabecdda40ab5d.png",
+    "static/media/harry.png": "/skillwillHomeworks/static/media/harry.cbc898c64d1ecb2027ee.png",
+    "static/media/codingLogo.png": "/skillwillHomeworks/static/media/codingLogo.829f9161263d5051c4e7.png",
+    "static/media/square-instagram (1).svg": "/skillwillHomeworks/static/media/square-instagram (1).b678db5aab6ba0a6b055a76d98a9e7df.svg",
+    "static/media/github (1).svg": "/skillwillHomeworks/static/media/github (1).925efa3eb2160baf33f5eb76743ffeb9.svg",
+    "index.html": "/skillwillHomeworks/index.html",
+    "static/media/linkedin (1).svg": "/skillwillHomeworks/static/media/linkedin (1).5e53c84761bc8b63033f798f0be6a91b.svg",
+    "static/media/facebook (1).svg": "/skillwillHomeworks/static/media/facebook (1).3c07275837ebfb88c11c1efa68d06571.svg",
+    "main.3f0df93b.css.map": "/skillwillHomeworks/static/css/main.3f0df93b.css.map",
+    "main.f8daa907.js.map": "/skillwillHomeworks/static/js/main.f8daa907.js.map",
+    "787.3f4a3f5e.chunk.js.map": "/skillwillHomeworks/static/js/787.3f4a3f5e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f0df93b.css",
+    "static/js/main.f8daa907.js"
+  ]
+}
