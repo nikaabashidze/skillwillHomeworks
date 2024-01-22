@@ -5,7 +5,7 @@ export default function Content() {
     return (
     <div className='homecontent'>
 
-          <h1> IF YOU WANT TO SEE HOMEWORKS PLEASE CLICK "HOMEWORKS"</h1>
+          <h1> IF YOU WANT TO SEE HOMEWORKS PLEASE CLICK "HOMEWORKS" !!!!!!</h1>
     </div>
   );
 }
