@@ -18,7 +18,7 @@ function App() {
       <div className="logo"><img src={codinglogo} alt="" id='carlogo' /></div>
       <nav className={`nav ${navActive ? 'active' : ''}`}>
         <ul>
-        <Link to="skillwillHomeworks/">HOME</Link>
+        <Link to="/">HOME</Link>
         <Link to="/homework">HOMEWORK</Link>
         <Link to="/about">ABOUT</Link>
         <Link to="/contact">CONTACT</Link>
