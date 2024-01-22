@@ -14,7 +14,7 @@ function App() {
   
   return (
     <Routes>
-    <Route path="skillwillHomeworks/" element={<Home />} />
+    <Route path="/skillwillHomeworks/" element={<Home />} />
     <Route path="/about" element={<About />} />
     <Route path="/services" element={<Services />} />
     <Route path="/contact" element={<Contact />} />
