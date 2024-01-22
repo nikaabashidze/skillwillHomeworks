@@ -11,13 +11,13 @@ import Homework12 from './layout/skillwillHomework12/homework12'
 function App() {
   return (
     <Routes>
-      <Route path="/skillwillHomeworks/home" element={<Home />} />
-      <Route path="/skillwillHomeworks/about" element={<About />} />
-      <Route path="/skillwillHomeworks/services" element={<Services />} />
-      <Route path="/skillwillHomeworks/contact" element={<Contact />} />
-      <Route path="/skillwillHomeworks/homework" element={<Tours />} />
-      <Route path="/skillwillHomeworks/skillwillHomework11" element={<Homework11 />} />
-      <Route path="/skillwillHomeworks/skillwillHomework12" element={<Homework12 />} />
+      <Route path="/skillwillHomeworks" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/services" element={<Services />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/homework" element={<Tours />} />
+      <Route path="/skillwillHomework11" element={<Homework11 />} />
+      <Route path="/skillwillHomework12" element={<Homework12 />} />
     </Routes>
   );
 }
