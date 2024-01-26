@@ -9,6 +9,7 @@ import Homework11 from './layout/skillwillHomework11/skillwill'
 import Homework12 from './layout/skillwillHomework12/homework12'
 import Homework13 from './layout/skillwillHomework13/homework13'
 import Homework14 from './layout/skillwillHomework14/homework14'
+import Homework15 from './layout/skillwillHomework15/homework15'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route path="/skillwillHomework12" element={<Homework12 />} />
       <Route path="/skillwillHomework13" element={<Homework13 />} />
       <Route path="/skillwillHomework14" element={<Homework14 />} />
+      <Route path="/skillwillHomework15" element={<Homework15 />} />
     </Routes>
   );
 }

@@ -25,7 +25,7 @@ function App() {
      <h1> Address</h1>
         <ul>
             <h3>Tbilisi</h3>
-            <li>Baratashvili 2str 2</li>
+            <li>Baratashvili str 2</li>
             
         </ul>
      </div>
