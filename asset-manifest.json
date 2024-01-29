@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/skillwillHomeworks/static/css/main.53c2190d.css",
-    "main.js": "/skillwillHomeworks/static/js/main.ba6288d3.js",
+    "main.css": "/skillwillHomeworks/static/css/main.ac69534e.css",
+    "main.js": "/skillwillHomeworks/static/js/main.5893ecf0.js",
     "static/js/787.3f4a3f5e.chunk.js": "/skillwillHomeworks/static/js/787.3f4a3f5e.chunk.js",
     "static/media/hobbit.png": "/skillwillHomeworks/static/media/hobbit.3bc122d3af08137a95e7.png",
     "static/media/got.png": "/skillwillHomeworks/static/media/got.da0e5dc3f72ba3397c01.png",
@@ -13,12 +13,12 @@
     "index.html": "/skillwillHomeworks/index.html",
     "static/media/linkedin (1).svg": "/skillwillHomeworks/static/media/linkedin (1).5e53c84761bc8b63033f798f0be6a91b.svg",
     "static/media/facebook (1).svg": "/skillwillHomeworks/static/media/facebook (1).3c07275837ebfb88c11c1efa68d06571.svg",
-    "main.53c2190d.css.map": "/skillwillHomeworks/static/css/main.53c2190d.css.map",
-    "main.ba6288d3.js.map": "/skillwillHomeworks/static/js/main.ba6288d3.js.map",
+    "main.ac69534e.css.map": "/skillwillHomeworks/static/css/main.ac69534e.css.map",
+    "main.5893ecf0.js.map": "/skillwillHomeworks/static/js/main.5893ecf0.js.map",
     "787.3f4a3f5e.chunk.js.map": "/skillwillHomeworks/static/js/787.3f4a3f5e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.53c2190d.css",
-    "static/js/main.ba6288d3.js"
+    "static/css/main.ac69534e.css",
+    "static/js/main.5893ecf0.js"
   ]
 }
