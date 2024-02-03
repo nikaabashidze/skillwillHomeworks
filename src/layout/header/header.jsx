@@ -19,12 +19,12 @@ function App() {
       <nav className={`nav ${navActive ? 'active' : ''}`}>
         <ul>
         <Link to="/skillwillHomeworks">HOME</Link>
-        <Link to="skillwillHomeworks/homework">HOMEWORK</Link>
-        <Link to="skillwillHomeworks/about">ABOUT</Link>
-        <Link to="skillwillHomeworks/contact">CONTACT</Link>
-      <Outlet />
+        <Link to="/homework">HOMEWORK</Link>
+        <Link to="/about">ABOUT</Link>
+        <Link to="/contact">CONTACT</Link>
         </ul>
       </nav>
+      <Outlet />
     </div>
   );
 }
