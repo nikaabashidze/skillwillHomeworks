@@ -22,9 +22,9 @@ function App() {
         <Link to="/homework">HOMEWORK</Link>
         <Link to="/about">ABOUT</Link>
         <Link to="/contact">CONTACT</Link>
+      <Outlet />
         </ul>
       </nav>
-      <Outlet />
     </div>
   );
 }
